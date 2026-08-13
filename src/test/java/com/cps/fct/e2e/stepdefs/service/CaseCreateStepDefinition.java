@@ -4,17 +4,14 @@ import com.cps.fct.e2e.utils.fileMapping.FileUtils;
 import com.cps.fct.e2e.utils.common.ScenarioContext;
 import com.cps.fct.e2e.utils.httpClient.HttpResponseWrapper;
 import com.cps.fct.e2e.utils.services.ddei.CaseService;
-import com.cps.fct.e2e.utils.services.messagaingApi.CaseCreateService;
-import io.cucumber.java.PendingException;
+import com.cps.fct.e2e.utils.services.caseCreation.CaseCreateService;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import org.picocontainer.annotations.Inject;
 import java.io.File;
 import java.io.IOException;
 
-import static com.cps.fct.e2e.utils.services.messagaingApi.assertions.TWIFAssertions.assertTWIFRequest;
-
-public class CaseCreateStepDefs {
+public class CaseCreateStepDefinition {
 
     @Inject
     private CaseService caseService;

@@ -1,6 +1,6 @@
 package com.cps.fct.e2e.utils.services.ddei.payloadBuilder;
 
-import com.cps.fct.e2e.model.PreChargeDecision;
+import com.cps.fct.e2e.model.caseReview.PreChargeDecision;
 import com.cps.fct.e2e.utils.common.DateTimeUtils;
 import com.cps.fct.e2e.utils.common.JsonUtils;
 import io.cucumber.core.internal.com.fasterxml.jackson.core.JsonProcessingException;
